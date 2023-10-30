@@ -1,6 +1,6 @@
 :root {
   --pink: #f14e95;
-  --bg: #0a0a0a;
+  /* --bg: #0a0a0a; */
   --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
 }
 
@@ -17,11 +17,11 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url(img/bg-prewed.jpg);
+  background-image: url(img/1.png);
   background-size: cover;
   background-position: center;
   z-index: -1;
-  filter: grayscale();
+  /* filter: grayscale(); */
 }
 
 .hero {
@@ -32,7 +32,7 @@ body {
 .hero h1,
 .hero h4,
 .hero p {
-  text-shadow: var(--shadow);
+  /* text-shadow: var(--shadow); */
 }
 
 .hero h1 {
@@ -100,6 +100,60 @@ body {
   font-weight: bold;
 }
 
+.ft {
+  content: '';
+  height: 100vh;
+  background-image: url(img/2.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.ft h3 {
+  text-align: center;
+  padding-top: 80px;
+  font-size: large;
+}
+
+.awal {
+  content: '';
+  height: 100vh;
+  background-image: url(img/3.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.peta {
+  content: '';
+  height: 120vh;
+  background-image: url(img/3.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.cerita {
+  content: '';
+  height: 120vh;
+  background-image: url(img/3.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.kata {
+  content: '';
+  height: 80vh;
+  background-image: url(img/4.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.hadiah {
+  content: '';
+  height: 120vh;
+  background-image: url(img/5.png);
+  background-size: cover;
+  background-position: center;
+}
+
 .home h3 {
   color: #444;
   font-size: 1.5rem;
@@ -160,7 +214,7 @@ body {
 
 .info .card {
   background-color: rgba(255, 255, 255, 0.2) !important;
-  color: white !important;
+  color: rgb(0, 0, 0) !important;
   border: 1px solid #999;
 }
 
@@ -180,13 +234,13 @@ body {
   font-weight: 300;
 }
 
-.story,
+/* .story,
 .gallery,
 .rsvp,
 .gifts {
-  padding-top: 10rem;
-  padding-bottom: 8rem;
-}
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+} */
 
 .story span,
 .gallery span,
@@ -309,7 +363,7 @@ body {
 }
 
 .gallery {
-  background-color: #f5f5f5;
+  background-color: #ffffff;
 }
 
 .rsvp {
